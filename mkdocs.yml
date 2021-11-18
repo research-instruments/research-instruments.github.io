@@ -5,12 +5,15 @@ edit_uri: edit/main/docs
 
 nav:
   - Главная: index.md  # ____.md is the markdown file stored in docs folder with the content of a page
-  - Каталог: about.md
-  - Материалы сообщества: # section with two subsections - FAQs and - Useful Git commands
-    - Справка: help.md
-    - Делись опытом: share.md
-  - Страница в GitHub: https://github.com/research-instruments
-  
+  - Сообщество: # section with two subsections - FAQs and - Useful Git commands
+    - Шаблоны интерактивных блокнотов:
+    - Шаблоны публикаций и конференционных постеров:
+    - Персональный опыт самоорганизации:
+    - Поделись своим опытом: share.md
+  - Рекомендуемые курсы: about.md
+  - Справка: help.md
+  - Наш GitHub: https://github.com/research-instruments
+
 theme:
   name: material
   custom_dir: overrides # path to folder "overrides", where the customized home.html and footer.html are stored

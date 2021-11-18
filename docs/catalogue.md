@@ -105,12 +105,18 @@
     <td>En</td>
   </tr>
   </tr>
-    <tr>
+  <tr>
     <td><a href="https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/
 ">Introduction to GitHub</a></td>
     <td>Практическое введение в GitHub с VS Code. Начни работать с системой контроля версий Git за 10 минут.</td>
     <td>online-курс</td>
     <td>En</td>
+  </tr>
+  <tr>
+    <td><a href="http://www.ccas.ru/voron/download/voron05latex.pdf/">LaTeX в примерах</a></td>
+    <td>Справочное пособие для .</td>
+    <td>Сборник</td>
+    <td>Ru</td>
   </tr>
 </table>
 

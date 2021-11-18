@@ -1,6 +1,6 @@
 ## Делись опытом
 
-## 1.**Fork the repo of interest**
+## 1.**Предложи изменения на сайт**
 
 [Create a Fork](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html){:target="_blank"} by clicking the *Fork* button.
 
