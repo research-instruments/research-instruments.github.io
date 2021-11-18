@@ -20,7 +20,8 @@ nav:
     - Коммуникация (soft-skills):
       - Подготовка публикаций: share.md
       - Публичные выступления: share.md
-      - Дискуссии: share.md    
+      - Дискуссии: share.md
+      - Участие в исследовательских проектах: share.md
   - Сообщество:
     - network.md  # section with two subsections - FAQs and - Useful Git commands
     - Уроки научных вычислений:
