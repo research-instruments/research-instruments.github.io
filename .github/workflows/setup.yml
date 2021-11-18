@@ -1,0 +1,35 @@
+name: New repo setup
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  precheck:
+    name: Pre-check
+    runs-on: ubuntu-latest
+#    if: ${{ github.repository != 'cal-itp/mkdocs-template' }}
+    if: always()
+    steps:
+      - name: Pre-check
+        run: echo "Running pre-check"
+    outputs:
+      setup_done: ${{ secrets.SETUP_DONE }}
+
+  setup:
+    name: Setup
+    runs-on: ubuntu-latest
+    needs: precheck
+    if: ${{ !needs.precheck.outputs.setup_done }}
+    steps:
+      - name: Create repository secret
+        uses: gliech/create-github-secret-action@v1
+        with:
+          name: SETUP_DONE
+          value: true
+          pa_token: ${{ secrets.PAT_REPO_SECRETS_WRITE }}
+
+      - name: Debug message
+        run: echo "Running the repository setup"
