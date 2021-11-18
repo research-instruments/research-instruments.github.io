@@ -59,10 +59,9 @@ extra_css: # paths to additional css code inside docs folder
 plugins: 
   - search # search table functionality
   - mknotebooks
-      binder: true
-      binder_service_name: "gh"
-      binder_branch: "master"
-      binder_ui: "lab"
+      execute: true
+      enable_default_jupyter_cell_styling: false
+      enable_default_pandas_dataframe_styling: false
 
 markdown_extensions:
   - toc: # hiding table of contents to make appearance not like in docs
