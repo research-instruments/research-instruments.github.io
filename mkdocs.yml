@@ -7,7 +7,7 @@ theme:
   name: material
   custom_dir: overrides # path to folder "overrides", where the customized home.html and footer.html are stored
   palette:
-    accent: yellow # color of element, when you hover the mouse over it
+    accent: deep orange # color of element, when you hover the mouse over it
   logo: assets/favicon_min.ico # path to logo at the top left of the header
   favicon: assets/favicon_min.ico # path to favicon
   features: # the behaviour which defines the appearance of the table of contents squidfunk.github.io/mkdocs-material/setup/setting-up-navigation
@@ -43,7 +43,7 @@ plugins:
 
 markdown_extensions:
   - toc: # hiding table of contents to make appearance not like in docs
-      toc_depth: 0  # hiding table of contents to make appearance not like in docs
+      toc_depth: 2  # hiding table of contents to make appearance not like in docs
   - pymdownx.tasklist:  # ability to use pretty tasklists from mkdocs-material
       clickable_checkbox: true
   - attr_list # allows to add HTML attributes and CSS classes to Markdown elements

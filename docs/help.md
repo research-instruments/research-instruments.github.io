@@ -1,7 +1,8 @@
-# Справка
+<!-- # Часто задаваемые вопросы -->
 ## Часто задаваемые вопросы
 
-**I am not familiar with using git. Where may I begin to learn it?**
+
+**Для кого**
 
 We have provided some commands for users unfamiliar with git on our [resources](../git/){:target="_blank"} page.  
 

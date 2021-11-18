@@ -45,7 +45,7 @@
 </style>
 
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Введите запрос..." title="Type in a name">
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Введите название курса..." title="Type in a name">
 
 </details>
 <table id="myTable">
@@ -104,13 +104,18 @@
     <td>Видеокурс</td>
     <td>En</td>
   </tr>
+  </tr>
+    <tr>
+    <td><a href="https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/
+">Introduction to GitHub</a></td>
+    <td>Практическое введение в GitHub с VS Code. Начни работать с системой контроля версий Git за 10 минут.</td>
+    <td>online-курс</td>
+    <td>En</td>
+  </tr>
 </table>
 
 
 
 
 
-
-[Send feedback via mailto](mailto:programs@oecd-nea.org)
-
-[NDS example](../nds/)
+[Отправь отзыв](mailto:rosatom-dev@mephi.ru)
