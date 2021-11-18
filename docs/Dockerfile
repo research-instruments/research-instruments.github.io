@@ -5,8 +5,8 @@ EXPOSE 8000
 
 COPY . .
 
-RUN pip install -r docs/requirements.txt && \
-    python -m pip3 install --upgrade pip && \
+RUN python -m pip3 install --upgrade pip && \
+    pip install -r docs/requirements.txt && \
     pip3 install mknotebooks
 
 
