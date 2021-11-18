@@ -35,14 +35,12 @@ extra_javascript: # paths to additional JavaScript code inside docs folder
   - javascripts/tables.js # tables functionality
   - javascripts/search.js # search in tables functionality
 
-
 extra_css: # paths to additional css code inside docs folder
   - stylesheets/extra.css # defines basic colors in the site scheme
 
 plugins: 
   - search # search table functionality
-  - table-reader: # adding tables generated automatically from CSVs (example for NDS)
-      data_path: "docs/csv"
+
 markdown_extensions:
   - toc: # hiding table of contents to make appearance not like in docs
       toc_depth: 0  # hiding table of contents to make appearance not like in docs
