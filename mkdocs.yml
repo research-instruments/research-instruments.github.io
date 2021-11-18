@@ -1,6 +1,6 @@
 site_name: "cal-itp/mkdocs-template"
-site_url: https://docs.calitp.org/mkdocs-template
-repo_url: https://github.com/cal-itp/mkdocs-template
+site_url: https://research-instruments.github.io
+repo_url: https://github.com/research-instruments/website
 edit_uri: edit/main/docs
 
 theme:
