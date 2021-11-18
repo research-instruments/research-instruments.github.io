@@ -1,7 +1,6 @@
 site_name: "Инструменты исследователя"
 site_url: https://research-instruments.github.io
 repo_url: https://github.com/research-instruments/website
-edit_uri: edit/main/docs
 
 nav:
   - Главная: index.md  # ____.md is the markdown file stored in docs folder with the content of a page
@@ -37,7 +36,7 @@ nav:
       - Зарубежные журналы: share.md
     - Поделись своим опытом: share.md
   - Рекомендуемые курсы: catalogue.md  
-  - Справка: help.md
+  - FAQ: help.md
   - Наш GitHub: https://github.com/research-instruments
 
 theme:
@@ -70,7 +69,7 @@ theme:
       example: octicons/beaker-16
       quote: octicons/quote-16
 
-copyright: © &copy; 2021 МИФИ и Сеченовский Университет # info in footer (at the bottom of each page)
+copyright: © 2021 МИФИ и Сеченовский Университет # info in footer (at the bottom of each page)
 
 extra_javascript: # paths to additional JavaScript code inside docs folder
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js # tablesort functionality
@@ -96,5 +95,3 @@ markdown_extensions:
   - pymdownx.details # ability to make admonitions collapsible
   - pymdownx.tabbed # extension facelessuser.github.io/pymdown-extensions/extensions/tabbed/
   - pymdownx.snippets # for adding code sample is intended to demonstrate programming tasks or scenarios as in Useful Git commands
-  # - codehilite
-
