@@ -5,16 +5,16 @@ edit_uri: edit/main/docs
 
 nav:
   - Главная: index.md  # ____.md is the markdown file stored in docs folder with the content of a page
-  - Сообщество: # section with two subsections - FAQs and - Useful Git commands
+  - Сообщество: community.md  # section with two subsections - FAQs and - Useful Git commands
     - Уроки научных вычислений:
       - Notebook page: JNotebooks/Fibonacci.ipynb
       - Notebook page: JNotebooks/matplot.ipynb
       - Notebook page: JNotebooks/CythonMagics.ipynb
       - Notebook page: JNotebooks/SymPyExamples.ipynb
     - Online-сервисы для исследователя:
-      - Наукометрия: JNotebooks/Fibonacci.ipynb
-      - Работа с текстами: JNotebooks/matplot.ipynb
-      - Персональный менеджмент: JNotebooks/CythonMagics.ipynb
+      - Наукометрия: share.md
+      - Работа с текстами: share.md
+      - Персональный менеджмент: share.md
   # - Шаблоны публикаций и конференционных постеров:
   # - Персональный опыт самоорганизации:
     - Поделись своим опытом: share.md
@@ -25,6 +25,7 @@ nav:
 
 theme:
   name: material
+  language: ru
   custom_dir: overrides # path to folder "overrides", where the customized home.html and footer.html are stored
   palette:
     accent: deep orange # color of element, when you hover the mouse over it
