@@ -6,10 +6,11 @@ edit_uri: edit/main/docs
 nav:
   - Главная: index.md  # ____.md is the markdown file stored in docs folder with the content of a page
   - Сообщество: # section with two subsections - FAQs and - Useful Git commands
-    - Шаблоны интерактивных блокнотов:
-    - Шаблоны публикаций и конференционных постеров:
-    - Персональный опыт самоорганизации:
-    - Поделись своим опытом: share.md
+    # - Шаблоны интерактивных блокнотов:
+    # - Шаблоны публикаций и конференционных постеров:
+    # - Персональный опыт самоорганизации:
+    # - your_notebook.ipynb
+      - Поделись своим опытом: share.md
   - Рекомендуемые курсы: about.md
   - Справка: help.md
   - Наш GitHub: https://github.com/research-instruments
@@ -55,6 +56,7 @@ extra_css: # paths to additional css code inside docs folder
 
 plugins: 
   - search # search table functionality
+  - mknotebooks
 
 markdown_extensions:
   - toc: # hiding table of contents to make appearance not like in docs
