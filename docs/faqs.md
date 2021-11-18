@@ -1,4 +1,5 @@
-# FAQS
+# Справка
+## Часто задаваемые вопросы
 
 **I am not familiar with using git. Where may I begin to learn it?**
 

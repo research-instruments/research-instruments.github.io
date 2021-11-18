@@ -62,40 +62,47 @@
     <td>En</td>
   </tr>
   <tr>
-    <td><a href="https://git2.oecd-nea.org/databank/cps/refit">REFIT</a></td>
-    <td>A nuclear something code ...</td>
-    <td>Open Source</td>
-    <td>...</td>
+    <td><a href="https://greenteapress.com/thinkpython2/html/index.html">Think Like a Computer Scientist</a></td>
+    <td>Think Python: How to Think Like a Computer Scientist.</td>
+    <td>Книга (online-формат)</td>
+    <td>En</td>
   </tr>
   <tr>
-    <td><a href="https://git2.oecd-nea.org/databank/cps/penelope">PENELOPE</a></td>
-    <td>A simulated electron-photon transport code ...</td>
-    <td>Open Source</td>
-    <td>SINBAD</td>
+    <td><a href="https://realpython.com/">Real Python</a></td>
+    <td>Прикладные обучающие материалы.</td>
+    <td>Обучающие руководства.</td>
+    <td>En</td>
   </tr>
   <tr>
-    <td><a href="https://git2.oecd-nea.org/databank/cps/serpent-v1">Serpent</a></td>
-    <td>A multipurpose Monte Carlo code ...</td>
-    <td>Restricted</td>
-    <td>ICSBEP, IPPhE</td>
+    <td><a href="https://stepik.org/course/88/promo#toc">Управление ИС</a></td>
+    <td>Управление интеллектуальной собственностью: основы для инженеров.</td>
+    <td>online-курс</td>
+    <td>Ru</td>
   </tr>
   <tr>
-    <td><a href="https://git2.oecd-nea.org/databank/cps/MCNP">MCNP</a></td>
-    <td>A multipurpose Monte Carlo code ...</td>
-    <td>Restricted</td>
-    <td>_--_</td>
+    <td><a href="https://juliaacademy.com/p/julia-for-data-science">Data Science</a></td>
+    <td>Курс науки о данных (язык Julia).</td>
+    <td>online-курс</td>
+    <td>En</td>
   </tr>
   <tr>
-    <td><a href="https://git2.oecd-nea.org/databank/cps/FISPACT">FISPACT-II</a></td>
-    <td>A multipurpose Monte Carlo code ...</td>
-    <td>Restricted</td>
-    <td>_--_</td>
+    <td><a href="https://www.coursera.org/learn/julia-programming">Scientific Programming</a></td>
+    <td>Курс программирования для начинающих (coursera).</td>
+    <td>online-курс</td>
+    <td>En</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.nature.com/scitable/ebooks/english-communication-for-scientists-14053993/contents/">English for Scientists</a></td>
+    <td>Прикладное руководство для ученого от журнала Nature.</td>
+    <td>Веб-портал</td>
+    <td>En</td>
+  </tr>
   </tr>
     <tr>
-    <td><a href="https://git2.oecd-nea.org/databank/cps/SCALE">SCALE</a></td>
-    <td>A multipurpose Monte Carlo code ...</td>
-    <td>Restricted</td>
-    <td>_--_</td>
+    <td><a href="https://www.youtube.com/playlist?list=PLul-1IcJDk9jDPT8m6EM6PlOSaeCRTUqR">Nuclear English</a></td>
+    <td>Ядерный английский от Корпоративной Академии Росатома.</td>
+    <td>Видеокурс</td>
+    <td>En</td>
   </tr>
 </table>
 

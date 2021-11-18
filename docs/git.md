@@ -1,4 +1,4 @@
-# Contributing to projects
+# Делись опытом
 
 ## 1.**Fork the repo of interest**
 
