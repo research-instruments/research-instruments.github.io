@@ -115,7 +115,9 @@
 </table>
 
 
+[Специализированные online-курсы университета МИФИ](https://online.mephi.ru/)
+
+[Специализированные online-курсы Сеченовского университета](https://sechenov.online/)
 
 
-
-[Отправь отзыв](mailto:rosatom-dev@mephi.ru)
+[Отправь отзыв и предложения](mailto:rosatom-dev@mephi.ru)
