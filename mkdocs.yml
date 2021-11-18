@@ -6,7 +6,7 @@ edit_uri: edit/main/docs
 nav:
   - Главная: index.md  # ____.md is the markdown file stored in docs folder with the content of a page
   - Сообщество:
-    - community.md  # section with two subsections - FAQs and - Useful Git commands
+    - цель.md  # section with two subsections - FAQs and - Useful Git commands
     - Уроки научных вычислений:
       - Notebook page: JNotebooks/Fibonacci.ipynb
       - Notebook page: JNotebooks/matplot.ipynb
