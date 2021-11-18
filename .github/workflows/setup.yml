@@ -14,6 +14,7 @@ jobs:
     if: always()
     steps:
       - name: Pre-check
+        run: pip3 install mknotebooks
         run: echo "Running pre-check"
     outputs:
       setup_done: ${{ secrets.SETUP_DONE }}
