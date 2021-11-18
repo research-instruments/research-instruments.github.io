@@ -1,9 +1,8 @@
 nav:
-  - Home: index.md  # ____.md is the markdown file stored in docs folder with the content of a page
-  - About: about.md
-  - Catalogue: catalogue.md
-  - 'Resources': # section with two subsections - FAQs and - Useful Git commands
-    - FAQs: faqs.md
-    - Useful Git commands: git.md
-  - New site from template: https://github.com/cal-itp/mkdocs-template/generate
+  - Главная: index.md  # ____.md is the markdown file stored in docs folder with the content of a page
+  - Каталог: about.md
+  # - Каталог: catalogue.md
+  # - 'Resources': # section with two subsections - FAQs and - Useful Git commands
+  #   - FAQs: faqs.md
+  #   - Useful Git commands: git.md
   - Страница в GitHub: https://github.com/research-instruments

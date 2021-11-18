@@ -1,7 +1,8 @@
-# Currently available nuclear code packages
+# Catalogue
 
-Below is a list of currently available codes on our internal platform. This table will be periodically updated as more open-source and restricted codes alike are onboarded. Should you have any comments or suggestions, feel free to contact us via the link at the bottom of the page. 
-For access to both open-source and restriced codes, please [register](https://www.oecd-nea.org/tools/mailinglist/register/){:target="_blank"} for a new account or [login](https://git2.oecd-nea.org/){:target="_blank"} using an already existing account.
+## Currently available nuclear code packages
+
+Реестр рекомендуемых инструментов
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
