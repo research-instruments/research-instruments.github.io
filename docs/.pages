@@ -1,4 +1,9 @@
 nav:
-  - Getting started: README.md
-  - Running locally: running-locally.md
+  - Home: index.md  # ____.md is the markdown file stored in docs folder with the content of a page
+  - About: about.md
+  - Catalogue: catalogue.md
+  - 'Resources': # section with two subsections - FAQs and - Useful Git commands
+    - FAQs: faqs.md
+    - Useful Git commands: git.md
   - New site from template: https://github.com/cal-itp/mkdocs-template/generate
+  - Страница в GitHub: https://github.com/research-instruments

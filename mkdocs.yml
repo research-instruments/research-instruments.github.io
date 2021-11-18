@@ -5,56 +5,59 @@ edit_uri: edit/main/docs
 
 theme:
   name: material
-  features:
-    - navigation.tabs
+  custom_dir: overrides # path to folder "overrides", where the customized home.html and footer.html are stored
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: blue
-      accent: amber
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: blue
-      accent: amber
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
+    accent: yellow # color of element, when you hover the mouse over it
+  logo: assets/favicon_min.ico # path to logo at the top left of the header
+  favicon: assets/favicon_min.ico # path to favicon
+  features: # the behaviour which defines the appearance of the table of contents squidfunk.github.io/mkdocs-material/setup/setting-up-navigation
+    - navigation.tabs
+    - navigation.top # A back-to-top button
+  icon: # set of icons for Inline blocks and collapsible windows squidfunk.github.io/mkdocs-material/reference/admonitions
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
 
-extra:
-  analytics:
-    provider: google
-    property: G-SZB618VNBZ
+copyright: Copyright &copy; 2021 OECD # info in footer (at the bottom of each page)
 
-plugins:
-  - search
-  - awesome-pages
+extra_javascript: # paths to additional JavaScript code inside docs folder
+  - https://unpkg.com/mermaid/dist/mermaid.min.js # allows using mermaid diagrams
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js # tablesort functionality
+  - javascripts/tables.js # tables functionality
+  - javascripts/search.js # search in tables functionality
 
-extra_javascript:
-  - https://unpkg.com/mermaid@8.5.0/dist/mermaid.min.js
 
-extra_css:
-  - https://use.fontawesome.com/releases/v5.13.0/css/all.css
+extra_css: # paths to additional css code inside docs folder
+  - stylesheets/extra.css # defines basic colors in the site scheme
 
+plugins: 
+  - search # search table functionality
+  - table-reader: # adding tables generated automatically from CSVs (example for NDS)
+      data_path: "docs/csv"
 markdown_extensions:
-  - admonition
-  - codehilite:
-      linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tabbed
-  - pymdownx.superfences:
+  - toc: # hiding table of contents to make appearance not like in docs
+      toc_depth: 0  # hiding table of contents to make appearance not like in docs
+  - pymdownx.tasklist:  # ability to use pretty tasklists from mkdocs-material
+      clickable_checkbox: true
+  - attr_list # allows to add HTML attributes and CSS classes to Markdown elements
+  - abbr # add additional content to parts of the text which are then shown on hover
+  - admonition # extension python-markdown.github.io/extensions/admonition
+  - pymdownx.keys # allows for inserting keyboard keys as in Useful Git commands
+  - pymdownx.details # ability to make admonitions collapsible
+  - pymdownx.tabbed # extension facelessuser.github.io/pymdown-extensions/extensions/tabbed/
+  - pymdownx.snippets # for adding code sample is intended to demonstrate programming tasks or scenarios as in Useful Git commands
+  - pymdownx.superfences:  # allows using mermaid diagrams
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_div_format
-  - pymdownx.smartsymbols
-  - meta
-  - toc:
-      # insert a blank space before the character
-      permalink: " ¶"
-  - smarty
-  - fontawesome_markdown
+          format: !!python/name:mermaid2.fence_mermaid
