@@ -4,4 +4,3 @@ mkdocs-awesome-pages-plugin
 mkdocs-macros-plugin
 mkdocs-material
 mkdocstrings
-mknotebooks
