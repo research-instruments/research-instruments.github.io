@@ -9,9 +9,10 @@ nav:
     # - Шаблоны интерактивных блокнотов:
     # - Шаблоны публикаций и конференционных постеров:
     # - Персональный опыт самоорганизации:
-    # - Fibonacci.ipynb
+      - Fibonacci.ipynb
       - Поделись своим опытом: share.md
   - Рекомендуемые курсы: about.md
+  - Компетенции исследователя: about.md
   - Справка: help.md
   - Наш GitHub: https://github.com/research-instruments
 
