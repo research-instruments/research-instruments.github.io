@@ -1,8 +1,8 @@
-# Курсы
+# Обучающие курсы
 
 ## Каталог рекомендованных курсов
 
-Избранные учебные материалы для освоения исследовательских инструментов.
+Избранные бесплатные учебные материалы для освоения исследовательских инструментов.
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -45,23 +45,21 @@
 </style>
 
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Enter code name..." title="Type in a name">
-
-_Sort table columns alphabetically by clicking on headers_
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Введите запрос..." title="Type in a name">
 
 </details>
 <table id="myTable">
   <tr class="header">
-    <th onclick="sortTable(0)" style="width:30%;">Code</th>
-    <th onclick="sortTable(1)" style="width:80%;">Description</th>
-    <th onclick="sortTable(2)" style="width:70%;">Category</th>
-    <th onclick="sortTable(3)" style="width:80%;">Additional Material</th>
+    <th onclick="sortTable(0)" style="width:30%;">Название</th>
+    <th onclick="sortTable(1)" style="width:80%;">Описание</th>
+    <th onclick="sortTable(2)" style="width:70%;">Тип</th>
+    <th onclick="sortTable(3)" style="width:80%;">Язык</th>
   </tr>
   <tr>
-    <td><a href="https://git2.oecd-nea.org/databank/cps/finix">FINIX</a></td>
-    <td>A fuel performance code ...</td>
-    <td>Open Source</td>
-    <td>IFPE</td>
+    <td><a href="https://youtu.be/rfscVS0vtbw">Изучаем Python</a></td>
+    <td>Полный курс для начинающих.</td>
+    <td>Видеокурс</td>
+    <td>En</td>
   </tr>
   <tr>
     <td><a href="https://git2.oecd-nea.org/databank/cps/refit">REFIT</a></td>
