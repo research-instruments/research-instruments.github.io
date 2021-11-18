@@ -1,8 +1,8 @@
-# Catalogue
+# Курсы
 
-## Currently available nuclear code packages
+## Каталог рекомендованных курсов
 
-Реестр рекомендуемых инструментов
+Избранные учебные материалы для освоения исследовательских инструментов.
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
