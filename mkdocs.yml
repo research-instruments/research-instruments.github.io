@@ -7,8 +7,8 @@ nav:
   - Главная: index.md  # ____.md is the markdown file stored in docs folder with the content of a page
   - Сообщество: # section with two subsections - FAQs and - Useful Git commands
     - Шаблоны интерактивных блокнотов:
-      - Fibonacci.ipynb
-      - matplot.ipynb
+      - Notebook page: Fibonacci.ipynb
+      - Notebook page 2: matplot.ipynb
   # - Шаблоны публикаций и конференционных постеров:
   # - Персональный опыт самоорганизации:
     - Поделись своим опытом: share.md
@@ -58,10 +58,11 @@ extra_css: # paths to additional css code inside docs folder
 
 plugins: 
   - search # search table functionality
-  - mknotebooks:
-      execute: true
-      enable_default_jupyter_cell_styling: false
-      enable_default_pandas_dataframe_styling: false
+  - mkdocs-jupyter
+  # - mknotebooks:
+  #     execute: true
+  #     enable_default_jupyter_cell_styling: false
+  #     enable_default_pandas_dataframe_styling: false
 
 markdown_extensions:
   - toc: # hiding table of contents to make appearance not like in docs
