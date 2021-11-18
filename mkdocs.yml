@@ -58,7 +58,7 @@ extra_css: # paths to additional css code inside docs folder
 
 plugins: 
   - search # search table functionality
-  - mknotebooks
+  - mknotebooks:
       execute: true
       enable_default_jupyter_cell_styling: false
       enable_default_pandas_dataframe_styling: false
