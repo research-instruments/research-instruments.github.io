@@ -11,8 +11,10 @@ theme:
   logo: assets/favicon_min.ico # path to logo at the top left of the header
   favicon: assets/favicon_min.ico # path to favicon
   features: # the behaviour which defines the appearance of the table of contents squidfunk.github.io/mkdocs-material/setup/setting-up-navigation
+    - navigation.sections
     - navigation.tabs
-    - navigation.top # A back-to-top button
+    - navigation.top
+    - navigation.indexes # A back-to-top button
   icon: # set of icons for Inline blocks and collapsible windows squidfunk.github.io/mkdocs-material/reference/admonitions
     admonition:
       note: octicons/tag-16
