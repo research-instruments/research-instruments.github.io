@@ -31,7 +31,6 @@ theme:
 copyright: Copyright &copy; 2021 OECD # info in footer (at the bottom of each page)
 
 extra_javascript: # paths to additional JavaScript code inside docs folder
-  - https://unpkg.com/mermaid/dist/mermaid.min.js # allows using mermaid diagrams
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js # tablesort functionality
   - javascripts/tables.js # tables functionality
   - javascripts/search.js # search in tables functionality
@@ -56,8 +55,4 @@ markdown_extensions:
   - pymdownx.details # ability to make admonitions collapsible
   - pymdownx.tabbed # extension facelessuser.github.io/pymdown-extensions/extensions/tabbed/
   - pymdownx.snippets # for adding code sample is intended to demonstrate programming tasks or scenarios as in Useful Git commands
-  - pymdownx.superfences:  # allows using mermaid diagrams
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:mermaid2.fence_mermaid
+
