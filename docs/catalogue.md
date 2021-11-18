@@ -114,7 +114,7 @@
   </tr>
   <tr>
     <td><a href="http://www.ccas.ru/voron/download/voron05latex.pdf/">LaTeX в примерах</a></td>
-    <td>Справочное пособие для .</td>
+    <td>Справочное пособие для математиков.</td>
     <td>Сборник</td>
     <td>Ru</td>
   </tr>

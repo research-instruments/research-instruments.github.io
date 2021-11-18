@@ -6,16 +6,20 @@ edit_uri: edit/main/docs
 nav:
   - Главная: index.md  # ____.md is the markdown file stored in docs folder with the content of a page
   - Сообщество: # section with two subsections - FAQs and - Useful Git commands
-    - Шаблоны интерактивных блокнотов:
+    - Уроки научных вычислений:
       - Notebook page: JNotebooks/Fibonacci.ipynb
       - Notebook page: JNotebooks/matplot.ipynb
       - Notebook page: JNotebooks/CythonMagics.ipynb
       - Notebook page: JNotebooks/SymPyExamples.ipynb
+    - Online-сервисы для исследователя:
+      - Наукометрия: JNotebooks/Fibonacci.ipynb
+      - Работа с текстами: JNotebooks/matplot.ipynb
+      - Персональный менеджмент: JNotebooks/CythonMagics.ipynb
   # - Шаблоны публикаций и конференционных постеров:
   # - Персональный опыт самоорганизации:
     - Поделись своим опытом: share.md
-  - Рекомендуемые курсы: about.md
-  - Компетенции исследователя: about.md
+  - Рекомендуемые курсы: catalogue.md
+  - Компетенции исследователя: skills.md
   - Справка: help.md
   - Наш GitHub: https://github.com/research-instruments
 
@@ -78,5 +82,5 @@ markdown_extensions:
   - pymdownx.details # ability to make admonitions collapsible
   - pymdownx.tabbed # extension facelessuser.github.io/pymdown-extensions/extensions/tabbed/
   - pymdownx.snippets # for adding code sample is intended to demonstrate programming tasks or scenarios as in Useful Git commands
-  - codehilite
+  # - codehilite
 
