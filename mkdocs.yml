@@ -7,8 +7,10 @@ nav:
   - Главная: index.md  # ____.md is the markdown file stored in docs folder with the content of a page
   - Сообщество: # section with two subsections - FAQs and - Useful Git commands
     - Шаблоны интерактивных блокнотов:
-      - Notebook page: Fibonacci.ipynb
-      - Notebook page 2: matplot.ipynb
+      - Notebook page: JNotebooks/Fibonacci.ipynb
+      - Notebook page: JNotebooks/matplot.ipynb
+      - Notebook page: JNotebooks/CythonMagics.ipynb
+      - Notebook page: JNotebooks/SymPyExamples.ipynb
   # - Шаблоны публикаций и конференционных постеров:
   # - Персональный опыт самоорганизации:
     - Поделись своим опытом: share.md
@@ -25,8 +27,8 @@ theme:
   logo: assets/favicon_min.ico # path to logo at the top left of the header
   favicon: assets/favicon_min.ico # path to favicon
   features: # the behaviour which defines the appearance of the table of contents squidfunk.github.io/mkdocs-material/setup/setting-up-navigation
-    - navigation.sections
-    # - navigation.tabs
+    # - navigation.sections
+    - navigation.tabs
     - navigation.top
     - navigation.indexes # A back-to-top button
     - search.highlight
@@ -58,8 +60,7 @@ extra_css: # paths to additional css code inside docs folder
 
 plugins: 
   - search # search table functionality
-  - mkdocs-jupyter:
-      include_source: True
+  - mkdocs-jupyter
   # - mknotebooks:
   #     execute: true
   #     enable_default_jupyter_cell_styling: false
