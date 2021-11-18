@@ -26,7 +26,7 @@ theme:
   favicon: assets/favicon_min.ico # path to favicon
   features: # the behaviour which defines the appearance of the table of contents squidfunk.github.io/mkdocs-material/setup/setting-up-navigation
     - navigation.sections
-    - navigation.tabs
+    # - navigation.tabs
     - navigation.top
     - navigation.indexes # A back-to-top button
     - search.highlight
@@ -58,7 +58,8 @@ extra_css: # paths to additional css code inside docs folder
 
 plugins: 
   - search # search table functionality
-  - mkdocs-jupyter
+  - mkdocs-jupyter:
+      include_source: True
   # - mknotebooks:
   #     execute: true
   #     enable_default_jupyter_cell_styling: false
