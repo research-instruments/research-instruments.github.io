@@ -1,9 +1,9 @@
 :root {
     /* Primary color shades */
     --md-primary-fg-color: #0057B8;
-    --md-default-bg-color--light: #EC5944;
-    --md-default-bg-color: #EC5944;
-    --md-default-bg-color--lighter: #EC5944;
+    --md-default-bg-color--light: #F1F3F6;
+    --md-default-bg-color: #F1F3F6;
+    --md-default-bg-color--lighter: #F1F3F6;
   }
   
 :root > * {

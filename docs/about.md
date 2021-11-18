@@ -2,7 +2,7 @@
 
 Портал исследователей.
 
-![Placeholder](logo.jpg){ loading=lazy }
+![Placeholder](assets/logo.jpg){ loading=lazy }
 
 
 
