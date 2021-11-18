@@ -15,6 +15,8 @@ theme:
     - navigation.tabs
     - navigation.top
     - navigation.indexes # A back-to-top button
+    - search.highlight
+    - search.suggest
   icon: # set of icons for Inline blocks and collapsible windows squidfunk.github.io/mkdocs-material/reference/admonitions
     admonition:
       note: octicons/tag-16
@@ -30,7 +32,7 @@ theme:
       example: octicons/beaker-16
       quote: octicons/quote-16
 
-copyright: Copyright &copy; 2021 МИФИ # info in footer (at the bottom of each page)
+copyright: Copyright &copy; 2021 МИФИ и Сеченовский Университет # info in footer (at the bottom of each page)
 
 extra_javascript: # paths to additional JavaScript code inside docs folder
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js # tablesort functionality
