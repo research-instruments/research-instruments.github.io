@@ -37,7 +37,7 @@ nav:
     - Поделись своим опытом: share.md
   - Рекомендуемые курсы: catalogue.md  
   - FAQ: help.md
-  - Наш GitHub: https://github.com/research-instruments
+  - Мы в GitHub: https://github.com/research-instruments
 
 theme:
   name: material
@@ -80,7 +80,8 @@ extra_css: # paths to additional css code inside docs folder
   - stylesheets/extra.css # defines basic colors in the site scheme
 
 plugins: 
-  - search # search table functionality
+  - search:
+      lang: ru  # search table functionality
   - mkdocs-jupyter
 
 markdown_extensions:
