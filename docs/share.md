@@ -6,3 +6,10 @@
 ## **Предложи изменения на сайт**
 
 [Создай **Fork**](https://github.com/research-instruments/website){:target="_blank"}, внеси дополнения и предложи **merge request**.
+
+
+**Нужна помощь?**
+
+Читай наше [руководство](./help/)
+
+или [Напиши нам](mailto:rosatom-dev@mephi.ru)

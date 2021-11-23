@@ -23,6 +23,7 @@ nav:
       - Участие в исследовательских проектах: share.md
   - Сообщество:
     - network.md  # section with two subsections - FAQs and - Useful Git commands
+    - Манифест открытой науки: manifest.md
     - Уроки научных вычислений:
       # - Notebook page: JNotebooks/Fibonacci.ipynb
       # - Notebook page: JNotebooks/matplot.ipynb

@@ -10,7 +10,9 @@
 
 ## Наши партнеры
 
-![Placeholder](assets/logo.jpg){ loading=lazy }
+Консорциум Университетов.
+
+<!-- ![Placeholder](assets/logo.jpg){ loading=lazy } -->
 
 
 [Отправь отзыв и предложения](mailto:rosatom-dev@mephi.ru)
