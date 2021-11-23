@@ -4,4 +4,5 @@
 Welcome to Fork & contribute.
 
 ## Лицензия
-Открытая (Apache)
+
+Открытая (Apache).
