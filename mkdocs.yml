@@ -25,10 +25,7 @@ nav:
     - network.md  # section with two subsections - FAQs and - Useful Git commands
     - Манифест открытой науки: manifest.md
     - Уроки научных вычислений:
-      # - Notebook page: JNotebooks/Fibonacci.ipynb
-      # - Notebook page: JNotebooks/matplot.ipynb
-      # - Notebook page: JNotebooks/CythonMagics.ipynb
-      - Notebook page: JNotebooks/Демо-урок.ipynb
+      - Notebook page: JNotebooks/Demo.ipynb
     - Online-сервисы для исследователя:
       - Наукометрия: share.md
       - Работа с текстами: share.md
