@@ -58,8 +58,20 @@
   <tr>
     <td><a href="https://youtu.be/rfscVS0vtbw">Изучаем Python</a></td>
     <td>Полный курс для начинающих.</td>
-    <td>Видеокурс</td>
+    <td>Видеокурс (youtube)</td>
     <td>En</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.youtube.com/playlist?list=PLRDzFCPr95fIDJUvFxvzWxg-V9BmZlMMe">Программирование на Python</a></td>
+    <td>Практика программирования для начинающих. Хирьянов.</td>
+    <td>Видеокурс (youtube)</td>
+    <td>Ru</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.youtube.com/playlist?list=PLRDzFCPr95fK7tr47883DFUbm4GeOjjc0">Алгоритмы на Python</a></td>
+    <td>Алгоритмы и структуры данных. Хирьянов.</td>
+    <td>Видеокурс (youtube)</td>
+    <td>Ru</td>
   </tr>
   <tr>
     <td><a href="https://greenteapress.com/thinkpython2/html/index.html">Think Like a Computer Scientist</a></td>
