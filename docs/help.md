@@ -23,6 +23,10 @@
     __ФамилияИмя: experience/filename.md__
 - Для аспирантов курса "Информационное пространство преподавателя инженерного вуза", скачать размещенную на сайте страницу и загрузить на сайт pdfmephi.
 
+## Пройди наш опрос
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScbGxWBWkvc6RVkyxEQ5hb9MD-wHjcgCBFIwHs8nvnQA3wT5w/viewform?embedded=true" width="640" height="1935" frameborder="0" marginheight="0" marginwidth="0">Анкета</iframe>
+
 
 ## Наши партнеры
 
