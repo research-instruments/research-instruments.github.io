@@ -84,7 +84,7 @@ plugins:
       lang: ru  # search table functionality
   - mkdocs-jupyter
 
-  markdown_extensions:
+markdown_extensions:
   - toc: # hiding table of contents to make appearance not like in docs
       toc_depth: 2  # hiding table of contents to make appearance not like in docs
   - pymdownx.tasklist:  # ability to use pretty tasklists from mkdocs-material
