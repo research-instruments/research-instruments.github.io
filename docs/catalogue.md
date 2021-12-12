@@ -74,6 +74,12 @@
     <td>Ru</td>
   </tr>
   <tr>
+    <td><a href="https://www.youtube.com/playlist?list=PLEfR8kMLtjHmkU8FsynSgLHpS9LAr8GLg">Уроки и проекты на Arduino</a></td>
+    <td>Уроки и проекты на Arduino. Кудряшов Антон.</td>
+    <td>Видеокурс (youtube)</td>
+    <td>Ru</td>
+  </tr>
+  <tr>
     <td><a href="https://greenteapress.com/thinkpython2/html/index.html">Think Like a Computer Scientist</a></td>
     <td>Think Python: How to Think Like a Computer Scientist.</td>
     <td>Книга (online-формат)</td>
