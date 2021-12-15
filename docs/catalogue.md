@@ -136,6 +136,36 @@
     <td>Сборник</td>
     <td>Ru</td>
   </tr>
+  <tr>
+    <td><a href="https://www.youtube.com/watch?v=4EGAF_xPmis&list=PL3BR09unfgcgrYjXxz30y44C1OFDOtsVc">Мини курс по Вычислимости, сложности и логике</a></td>
+    <td>Интенсивные лекции о вычислимости и вычислительной сложности от сотрудника Intel и преподавателя МФТИ Константина Владимирова.</td>
+    <td>Мини-курс (youtube)</td>
+    <td>Ru</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.youtube.com/c/YannicKilcher">Канал Янника Килхера</a></td>
+    <td>Разборы статей по тематике Машинного Обучения, Новости области и туториалы.</td>
+    <td>Канал (youtube)</td>
+    <td>En</td>
+  </tr>
+  <tr>
+    <td><a href="http://www.arxiv-sanity.com/">Arxiv-Sanity</a></td>
+    <td>Система фильтрации и поиска препринтов на основе архива препринтов статей Корнельского университета, разработанная Андреем Карпати(@karpathy).</td>
+    <td>Поисковая система</td>
+    <td>En</td>
+  </tr>
+  <tr>
+    <td><a href="https://neuripsav.vizhub.ai/">NEURIPS ANTHOLOGY VISUALIZATION</a></td>
+    <td>Визуализация статей конференции по нейроинформатике Neurips с 1987 по сегодняшний день.</td>
+    <td>Система визуализации</td>
+    <td>En</td>
+  </tr>
+  <tr>
+    <td><a href="https://softwarefoundations.cis.upenn.edu/">Software Foundations</a></td>
+    <td>Серия книг о системе автоматизированного доказательства Coq и её приложения к построению надёжного ПО.</td>
+    <td>Книга (online-формат)</td>
+    <td>En</td>
+  </tr>
 </table>
 
 ## Специализированные курсы
@@ -143,5 +173,3 @@
 [online-курсы университета МИФИ](https://online.mephi.ru/)
 
 [online-курсы Сеченовского университета](https://sechenov.online/)
-
-
