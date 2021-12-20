@@ -166,6 +166,12 @@
     <td>Книга (online-формат)</td>
     <td>En</td>
   </tr>
+  <tr>
+    <td><a href="https://www.youtube.com/watch?v=lO6vUfg00m8&list=PLGwyAAXNSxVA65nbrRo05azDkpQLpOtlb&ab_channel=JanDufek">Basic Monte Carlo algorithm</a></td>
+    <td>Lessons on Monte Carlo methods and simulations in nuclear technology</td>
+    <td>Видеокурс (youtube)</td>
+    <td>En</td>
+  </tr>
 </table>
 
 ## Специализированные курсы
