@@ -26,6 +26,7 @@ nav:
     - Манифест открытой науки: manifest.md
     - Уроки научных вычислений:
       - Notebook page: JNotebooks/Demo.ipynb
+      - Notebook page: JNotebooks/Nlopt.ipynb
     - Online-сервисы для исследователя:
       - Наукометрия: share.md
       - Работа с текстами: share.md
