@@ -2,9 +2,9 @@
 
 <!-- Get setting from mkdocs.yml, but allow page-level overrides -->
 {% set disqus = config.extra.disqus %}
-{% if page and page.meta and page.meta.disqus is string %}
+<!-- {% if page and page.meta and page.meta.disqus is string %}
   {% set disqus = page.meta.disqus %}
-{% endif %}
+{% endif %} -->
 
 <!-- Inject Disqus into current page -->
 {% if not page.is_homepage and disqus %}
