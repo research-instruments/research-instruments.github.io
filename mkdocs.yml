@@ -100,10 +100,10 @@ markdown_extensions:
   - pymdownx.details # ability to make admonitions collapsible
   - pymdownx.tabbed # extension facelessuser.github.io/pymdown-extensions/extensions/tabbed/
   - pymdownx.snippets # for adding code sample is intended to demonstrate programming tasks or scenarios as in Useful Git commands
-  # - meta
+  - meta
 
 extra:
   analytics:
     provider: google
     property: G-S54D3HMS7N
-  # disqus: neadb
+  disqus: neadb
