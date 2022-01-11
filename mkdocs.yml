@@ -105,3 +105,4 @@ extra:
   analytics:
     provider: google
     property: G-S54D3HMS7N
+  disqus: neadb
