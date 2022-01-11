@@ -24,11 +24,6 @@
     __ФамилияИмя: experience/filename.md__
 - Для аспирантов курса "Информационное пространство преподавателя инженерного вуза", скачать размещенную на сайте страницу и загрузить на сайт pdfmephi.
 
-## Пройди наш опрос
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScbGxWBWkvc6RVkyxEQ5hb9MD-wHjcgCBFIwHs8nvnQA3wT5w/viewform?embedded=true" width="640" height="1935" frameborder="0" marginheight="0" marginwidth="0">Анкета</iframe>
-
-
 ## Наши партнеры
 
 Консорциум Университетов.
@@ -36,6 +31,11 @@
 ## Правила комментирования
 
 Сообщения и комментарии читателей сайта размещаются без предварительного редактирования. Редакция оставляет за собой право удалить их.
+
+
+## Пройди наш опрос
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScbGxWBWkvc6RVkyxEQ5hb9MD-wHjcgCBFIwHs8nvnQA3wT5w/viewform?embedded=true" width="640" height="1935" frameborder="0" marginheight="0" marginwidth="0">Анкета</iframe>
 
 
 [Отправь отзыв и предложения](mailto:rosatom-dev@mephi.ru)
