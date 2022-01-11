@@ -1,10 +1,24 @@
 <!-- Add copied contents from original content.html here -->
-
+{% if page.edit_url %}
+<a href="{{ page.edit_url }}" title="{{ lang.t('edit.link.title') }}" class="md-content__button md-icon">
+  {% include ".icons/material/pencil.svg" %}
+</a>
+{% endif %}
+{% if not "\x3ch1" in page.content %}
+  <h1>{{ page.title | d(config.site_name, true)}}</h1>
+{% endif %}
+{{ page.content }}
+{% if page and page.meta and (
+  page.meta.git_revision_date_localized or
+  page.meta.revision_date
+) %}
+  {% include "partials/source-file.html" %}
+{% endif %}
 <!-- Get setting from mkdocs.yml, but allow page-level overrides -->
 {% set disqus = config.extra.disqus %}
-<!-- {% if page and page.meta and page.meta.disqus is string %}
+{% if page and page.meta and page.meta.disqus is string %}
   {% set disqus = page.meta.disqus %}
-{% endif %} -->
+{% endif %}
 
 <!-- Inject Disqus into current page -->
 {% if not page.is_homepage and disqus %}
