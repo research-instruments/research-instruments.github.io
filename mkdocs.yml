@@ -4,23 +4,50 @@ repo_url: https://github.com/research-instruments/website
 
 nav:
   - Главная: index.md  # ____.md is the markdown file stored in docs folder with the content of a page
-  - Компетенции исследователя:
+  - Блоки компетенций исследователя:
     - skills.md
-    - Личностное развитие (soft-skills):
-      - Кругозор: share.md
-      - Самоорганизация (тайм-менеджмент): share.md
-      - Критическое мышление: share.md
-    - Научная работа (hard-skills):
-      - Планирование исследования: share.md
-      - Работа с источниками: share.md
+    - Научные инструменты:
+      - Обработка данных: share.md
+      - Методы научной визуализации : share.md
+
+    - IT-компетенции:
       - Программирование: share.md
-      - Обработка результатов: share.md
-      - Научная визуализация: share.md    
-    - Коммуникация (soft-skills):
-      - Подготовка публикаций: share.md
-      - Публичные выступления: share.md
-      - Дискуссии: share.md
-      - Участие в исследовательских проектах: share.md
+      - Научные базы данных: share.md
+
+    - Технологии коммуникации:
+      - Ореn-Science: share.md
+      - Иностранные языки: share.md
+      - Дискуссии и презентации: share.md
+      - Networking: share.md
+
+    - Чтение и письмо:
+      - Понимание научных статей: share.md
+      - Навыки написания эссе и статей: share.md
+      - Рецензирование научных текстов: share.md
+
+    - Коммерциализация науки:
+      - Технологическое предпринимательство: share.md
+      - Интеллектуальная собственность: share.md
+
+    - Финансирование науки:
+      - Грантовая поддержка: share.md
+      - Исследовательские проекты: share.md
+
+    - Общество и наука:
+      - Научная этика: share.md
+      - История науки: share.md
+      - Перспективы развития науки: share.md
+
+    - Видение научных задач:
+      - Технологические тренды: share.md
+      - Обзор развития научных областей: share.md
+
+    - Методика  проведения исследований:
+      - Теория: share.md
+      - Гипотезы: share.md
+      - Дизайн эксперимента: share.md
+
+
   - Сообщество:
     - network.md  # section with two subsections - FAQs and - Useful Git commands
     - Манифест открытой науки: manifest.md
@@ -101,7 +128,6 @@ markdown_extensions:
   - pymdownx.details # ability to make admonitions collapsible
   - pymdownx.tabbed # extension facelessuser.github.io/pymdown-extensions/extensions/tabbed/
   - pymdownx.snippets # for adding code sample is intended to demonstrate programming tasks or scenarios as in Useful Git commands
-  # - meta
 
 extra:
   analytics:
