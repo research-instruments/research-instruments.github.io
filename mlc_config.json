@@ -2,13 +2,11 @@
     "ignorePatterns": [
         {
           "pattern": "^https://www.asozykin.ru/courses/nnpython"
-        }
-      ],
-      "replacementPatterns": [
+        },
         {
-          "pattern": "^./",
-          "replacement": "{{BASEURL}}/"
-        }
+            "pattern": "^./",
+            "replacement": "{{BASEURL}}/"
+          }
       ],
 
     "timeout": "10s",
