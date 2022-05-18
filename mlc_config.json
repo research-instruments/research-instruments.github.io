@@ -1,0 +1,14 @@
+{
+    "ignorePatterns": [
+      {
+        "pattern": "^./",
+        "replacement": "{{BASEURL}}/"
+      }
+    ],
+
+    "timeout": "10s",
+    "retryOn429": true,
+    "retryCount": 2,
+    "fallbackRetryDelay": "30s",
+    "aliveStatusCodes": [200, 206]
+}
