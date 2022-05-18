@@ -1,10 +1,15 @@
 {
     "ignorePatterns": [
-      {
-        "pattern": "^./",
-        "replacement": "{{BASEURL}}/"
-      }
-    ],
+        {
+          "pattern": "^https://www.asozykin.ru/courses/nnpython"
+        }
+      ],
+      "replacementPatterns": [
+        {
+          "pattern": "^./",
+          "replacement": "{{BASEURL}}/"
+        }
+      ],
 
     "timeout": "10s",
     "retryOn429": true,
