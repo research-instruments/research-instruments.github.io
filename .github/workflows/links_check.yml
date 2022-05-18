@@ -17,5 +17,4 @@ jobs:
         # use-quiet-mode: 'yes'
         use-verbose-mode: 'yes'
         folder-path: 'docs'
-        check-modified-files-only: 'yes'
         config-file: 'mlc_config.json'
