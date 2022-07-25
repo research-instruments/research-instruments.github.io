@@ -13,6 +13,7 @@ nav:
 
     - IT-компетенции:
       - Программирование: competencies/it.md
+      - Системы компьютерной верстки: competencies/LaTeX.md
 
     - Технологии коммуникации:
       - Ореn-Science: share.md
