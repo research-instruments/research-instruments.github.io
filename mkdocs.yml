@@ -16,9 +16,10 @@ nav:
       - Системы компьютерной верстки: competencies/LaTeX.md
 
     - Технологии коммуникации:
+      - Презентация: competencies/plots.md
       - Ореn-Science: share.md
       - Иностранные языки: share.md
-      - Дискуссии и презентации: share.md
+      - Дискуссии: competencies/disc.md
       - Networking: share.md
 
     - Чтение и письмо:
@@ -31,7 +32,7 @@ nav:
       - Интеллектуальная собственность: share.md
 
     - Финансирование науки:
-      - Грантовая поддержка: share.md
+      - Грантовая поддержка: competencies/grants.md
       - Исследовательские проекты: share.md
 
     - Общество и наука:
