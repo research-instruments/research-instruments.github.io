@@ -6,4 +6,5 @@
 
 На портале Открытое образование от НИЯУ МИФИ есть курсы [«Основы интеллектуального анализа данных и машинного обучения»](https://openedu.ru/course/mephi/mephi_oiadmo/), [«Математические и инструментальные методы машинного обучения»](https://openedu.ru/course/mephi/mephi_011_machinelearning/), планируются курсы [«Обработка данных на языке Python»](https://openedu.ru/course/mephi/mephi_python/), [«Основы метрологии и статистической обработки данных»](https://openedu.ru/course/mephi/mephi_omsod/).
 
+
 *Андрей Летунов*
