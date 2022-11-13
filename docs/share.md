@@ -10,6 +10,7 @@
 
 **Нужна помощь?**
 
+[explanation]: # previously, this href was led to "/share/help"
 Читай наше [руководство](/help/)
 
 или [Напиши нам](mailto:rosatom-dev@mephi.ru)
