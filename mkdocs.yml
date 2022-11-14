@@ -8,6 +8,7 @@ nav:
     - skills.md
     - Научные инструменты:
       - Обработка данных: competencies/data.md
+      - Работа со статьями при помощи Emacs: competencies/papers_workflow_emacs.md
       - Методы научной визуализации : competencies/viz.md
       - Научные базы данных: share.md
 
