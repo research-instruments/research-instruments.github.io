@@ -59,9 +59,9 @@ nav:
       - Notebook page: JNotebooks/Nlopt.ipynb
       - Notebook page: JNotebooks/openmc pincell by Paul Romano.ipynb
       - Notebook page: JNotebooks/openmc candu by Paul Romano.ipynb
-      - Notebook page: JNotebooks/openmc candu by Paul Romano.ipynb
       - Notebook page: JNotebooks/openmc hexagonal lattice by Paul Romano.ipynb
       - Notebook page: JNotebooks/openmc SFR by Paul Romano.ipynb
+      - Notebook page: JNotebooks/openmc VVER by Paul Romano.ipynb
     - Online-сервисы для исследователя:
       - Наукометрия: share.md
       - Работа с текстами: share.md
