@@ -57,6 +57,7 @@ nav:
     - Уроки научных вычислений:
       - Notebook page: JNotebooks/Demo.ipynb
       - Notebook page: JNotebooks/Nlopt.ipynb
+      - Notebook page: JNotebooks/openmc pincell by Paul Romano.ipynb
     - Online-сервисы для исследователя:
       - Наукометрия: share.md
       - Работа с текстами: share.md
