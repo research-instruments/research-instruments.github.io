@@ -15,7 +15,6 @@ nav:
     - IT-компетенции:
       - Программирование: competencies/it.md
       - Системы компьютерной верстки: competencies/LaTeX.md
-      - LaTeX. первые шаги: docs/experience/fist_steps_in_latex.md
 
 
     - Технологии коммуникации:
@@ -79,6 +78,8 @@ nav:
       - Епифанов Сергей: experience/DiagramPlotting.md
       - Суханов Михаил: experience/ProgrammingPractice.md
       - Дашанова Екатерина: experience/openmc_install.md
+      - Мамаев Михаил: experience/fist_steps_in_latex.md
+
     - Поделись своим опытом: share.md
   - Рекомендуемые курсы: catalogue.md  
   - FAQ: help.md
