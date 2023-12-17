@@ -92,6 +92,12 @@
     <td>En</td>
   </tr>
   <tr>
+    <td><a href="https://github.com/esokolov/ml-course-hse">ML Python</a></td>
+    <td>Курс "Машинное обучение" на ФКН ВШЭ.</td>
+    <td>Материалы курса.</td>
+    <td>Ru</td>
+  </tr>
+  <tr>
     <td><a href="https://stepik.org/course/88/promo#toc">Управление ИС</a></td>
     <td>Управление интеллектуальной собственностью: основы для инженеров.</td>
     <td>online-курс</td>
